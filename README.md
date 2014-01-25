@@ -10,7 +10,8 @@ The following criteria must be met to be a valid credit card number:
 
 	* String must be between 13 and 19 characters long.
 	* All characters in the string must be a number.
-	* Starting at the last digit, every digit must be totaled with the exception that every other digit must be doubled. If this doubled number is greater than 9 then the doubled number must be divided by 10 and the remainder must be added to the sum otherwise the original value is added to the sum.
+	* Starting at the last digit, every digit must be totaled with the exception that every other digit must be doubled. 
+	If this doubled number is greater than 9 then the doubled number must be divided by 10 and the remainder must be added to the sum otherwise the original value is added to the sum.
 	* The final sum must be divisible by 10.
 
 ## Objectives
@@ -23,6 +24,6 @@ The following criteria must be met to be a valid credit card number:
 
 4. Show visual effect in response to whether the number is a valid credit card number.
 
-5, Write a series of tests to validate whether your validation method works.
+5. Write a series of tests to validate whether your validation method works.
 
 ##Most Importanly....Have Fun!
